@@ -1,20 +1,19 @@
 <html>
-<form action="/new" method="post">
+<form action="/pirates" method="post">
 
 Name: <input type="text" name="pirate[name]">
 Weight: <input type="text" name="pirate[weight]">
 Height: <input type="text" name="pirate[height]">
-
+<br>
+Ship name: <input type="text" name="pirate[ships][][name]">
+Ship type: <input type="text" name="pirate[ships][][type]">
+Ship booty: <input type="text" name="pirate[ships][][booty]">
+<br>
 Ship name: <input type="text" name="pirate[ships][][name]">
 Ship type: <input type="text" name="pirate[ships][][type]">
 Ship booty: <input type="text" name="pirate[ships][][booty]">
 <input type="submit">
-
-Ship name: <input type="text" name="pirate[ships][][name]">
-Ship type: <input type="text" name="pirate[ships][][type]">
-Ship booty: <input type="text" name="pirate[ships][][booty]">
-<input type="submit">
-
+<br>
 </form>
   <body></body>
 </html>
